@@ -1,0 +1,54 @@
+This is the map file. Trade zones, some exile settings and some mission and towing files. 
+
+- VEMFr_client
+  - VEMF invasion AI mission configs
+
+- R3FLOG
+  - Towing, etc
+
+- exileCustom
+  - code we use to overwrite stock exile functions
+  
+- addons
+  - map addons, status bar is the only one atm
+
+- A3XI_Client
+  - Map files for roaming AI 
+  // they gon fuck you up
+
+- xm8_server_info.xml
+  - server info as shown in the tablet in game
+
+- mission.sqm
+  - Objects and units. 
+  - Markers, safezones and spawn zones
+
+- intro.sqf
+  - a file exile throws fits without ¯\_(ツ)_/¯
+
+- initServer.sqf
+  - initialization for the server
+
+- initPlayerLocal.sqf
+  - code for playerside execution
+
+- init.sqf
+  - code to initialize custom scripts
+
+- description.ext
+  - lots of config for how the server appears in launchers and browsers
+  - some rcon things
+  - code to include for execution of server/client start up
+
+- config.cpp
+  - second most important, exile map config.
+  - clan config (not implemented)
+  - crafting recipes
+  - "arsenal" - price and quality settings
+  - custom code, for overwriting original exile functions
+  - music
+  - flags
+  - Territory size and cost settings
+  - trader categories- puts items with prices associated into categories used in trader config
+  - trader config
+  - vehicle customs config- can add custom skins and add them to the customs list
